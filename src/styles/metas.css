@@ -1,0 +1,131 @@
+.metas{
+  background: linear-gradient(to right, rgb(174, 236, 189), rgb(68, 199, 158));
+  min-height: calc(100vh - 4rem);
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.main-container{
+  background-color: #fff;
+  border-radius: 10px;
+  width: 700px;
+  padding: 1rem;
+  padding-bottom: calc(2rem + 80px);
+  text-align: center;
+}
+.calculadora-metas{
+  background-color: #4c97c928;
+  border-radius: 10px;
+  padding: 2rem;
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+.resultado{
+  background-color: #fff;
+  border-radius: 10px;
+  width: 400px;
+  margin-top: 1.5rem;
+  font-weight: bold;
+  border-left:  5px solid #0d6efd;
+  padding: 0.75rem 1rem; 
+}
+.inputs-calculadora{
+  display: flex;
+  justify-content: center;
+  gap:2rem;
+  margin-bottom:1.5rem;
+  width: 100%;
+}
+.input-group{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.input-group{
+  display: flex;
+  flex-direction: column;
+  gap:1rem;
+  width: 100%;
+}
+
+.input-group input{
+  padding: 0.8rem 1rem ;
+  font-size: 1rem;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  border-radius: 12px;
+  outline: none;
+  transition: all 0.3s ease; ;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: black;
+  width: 100%;
+  box-sizing: border-box;
+}
+.input-group input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+.input-group input:focus {
+  border-color: #44c79e; 
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 10px rgba(68, 199, 158, 0.5); 
+}
+.calcular-btn{
+  display: block;
+  margin: 1.5 auto 1.5rem auto;
+  width: 600px;
+}
+.btn-adicionar{
+  width: 600px;
+}
+.suas-metas li{
+  background-color: #9797971f;
+  margin-top: 1rem;
+  border-radius: 10px;
+  padding: 1rem;
+  border-left:  10px solid #4878e0;
+  color: black;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.formulario-container{
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  max-width: 400px;
+  margin:1.5rem auto;
+}
+.formulario{
+  display: flex;
+  flex-direction: column;
+  gap:1rem;
+}
+.formulario label{
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  color:#333;
+}
+.formulario inputs:focus,
+.formulario select:focus{
+  border:1px solid#28a745;
+  box-shadow:0 0 4px rgba(40, 167, 69, 0.4);
+}
+.formulario button{
+  background-color:#28a745;
+  color: white;
+  padding:0.8rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.formulario button:hover{
+  background-color:#218838;
+}

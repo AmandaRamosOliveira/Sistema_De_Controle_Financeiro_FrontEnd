@@ -1,0 +1,140 @@
+.botoes-relatorios {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.relatorio-contaneir {
+  background: linear-gradient(to right, rgb(174, 236, 189), rgb(68, 199, 158));
+  min-height: calc(100vh - 4rem);
+  padding: 2rem;
+  padding-bottom: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+
+}
+.grafico-relatorio {
+  background: white;
+  color: #2a9d8f;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 12px;
+  text-align: center;
+  max-width: 900px;
+  width: 90%;
+  padding-bottom: calc(2rem + 60px);
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+.cards-destaque {
+  display: flex;
+  justify-content:flex-start;
+  flex-wrap: nowrap;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+.grafico-relatorio canvas {
+  max-width: 100% !important;  
+  height: auto !important;  
+}
+.card {
+  background: #2a9d8f;
+  color: rgb(255, 255, 255);
+  padding: 1rem;
+  border-radius: 10px;
+  width: 150px;
+}
+.lista-categorias {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+.grafico-relatorio p {
+  margin: 0.5rem 0;            
+  font-weight: bold;
+  color: #2a9d8f;
+}
+.grafico-relatorio .card{
+  width: 30%;
+  min-width: 150px;
+}
+
+.btn-relatorio {
+  padding: 0.7rem 1.5rem;
+  border-radius: 20px;
+  border: 1px solid #40a887;
+  background: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  color: #40a887;
+  transition: 0.3s;
+}
+
+.btn-relatorio.ativo {
+  background: #40a887;
+  color: white;
+}
+.relatorio-header {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  gap: 1rem; 
+  background: #fff;
+  width: 100%;
+  max-width: 1500px;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+}
+.relatorio-header h2 {
+  margin: 0;
+  color: #2a9d8f;
+}
+.botoes-relatorios {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 2em;
+  border-color: green;
+}
+.meses {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.meses button {
+  padding: 1rem;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  background: #fff;
+  border-color: #7ecc93;
+  color: #2a9d8f;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.meses button:hover {
+  background: #40a887;
+  color: #fff;
+}
+
+.anual {
+  background: #fff;
+  padding: 1.5rem 2rem;
+  border-radius: 10px;
+  color: #2a9d8f;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  max-width: 600px;
+  margin-top: 1rem;
+}

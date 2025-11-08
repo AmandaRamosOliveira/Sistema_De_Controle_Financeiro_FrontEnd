@@ -1,0 +1,287 @@
+.navbar-custom{
+  background: linear-gradient(90deg, #57caa6, #2a9d8f);
+  color: white;
+}
+.navbar-brand img, a{
+  cursor: pointer;
+}
+.sidebar {
+  width: 250px;
+  background: linear-gradient(90deg, #57caa6, #2a9d8f);
+  color: white;
+  padding: 1rem;
+}
+.main-content-wrapper {
+  flex: 1;
+  overflow-y: auto;
+}
+.footer-Estudos {
+  position: auto;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(90deg, #57caa6, #2a9d8f);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.footer-Estudos a {
+  text-decoration: none;
+  color:#083614;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  text-shadow: #23c24d;
+}
+.h{
+    color: rgb(255, 255, 255);
+}
+.estudos{
+  background: linear-gradient(to right, rgb(174, 236, 189), rgb(68, 199, 158));
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; 
+  overflow-y: hidden !important;
+}
+.content {
+  flex-grow: 1;
+  background: linear-gradient(to right, rgb(174, 236, 189), rgb(68, 199, 158));
+  padding: 2rem;
+  color: #025719;
+  font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+.sidebar-btn {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: transparent;
+  border: none;
+  padding: 10px 15px;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  transition: background 0.3s, color 0.3s;
+  cursor: pointer;
+}
+.sidebar-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.sidebar-btn.active {
+  background: rgba(255, 255, 255, 0.3);
+  font-weight: bold;
+  color: #083614;
+}
+.historias-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); 
+  gap: 2rem; 
+  margin-bottom: 2rem;
+  align-items: start;
+}
+
+.historia {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 2rem;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.biblioteca{
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+.biblioteca-cards{
+  background-color: #85838341;
+  border-radius: 5px;
+  padding: 1rem;
+  flex: 1;
+  min-width: 200px;
+  text-align: center;
+}
+.p-titulo {
+  font-weight: bold;
+}
+.p-titulo1{
+  font-weight: bold;
+}
+
+.biblioteca-container{
+  cursor: pointer;
+}
+.conceitos-container{
+  cursor: pointer;
+}
+.biblioteca-container{
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+.video-footer {
+  flex-shrink: 0;
+  color: red;
+}
+.video-footer a{
+  text-decoration: none;
+}
+.video-footer p{
+  color: red;
+}
+.video-subtitulo{
+  font-size: 0.9rem;
+  color: #555;
+}
+.video-subtitulo {
+  font-size: 0.9rem;
+  color: #555;
+}
+.video-titulo {
+  font-weight: bold;
+}
+.video-texto {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  margin-right: 15px;
+  margin-right: 10px;
+}
+.video-card {
+  background: rgba(128, 128, 128, 0.1);
+  border-radius: 8px;
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.explicacoes-container a{
+  text-decoration: none;
+  color: #025719;
+}
+.videos-titulos {
+  font-weight: bold;
+  color: blue;
+  margin-bottom: 1rem;
+}
+.videos {
+  background-color: #fff;
+  border-radius: 10px;
+  color: black;
+  flex: 1;
+  min-width: 240px;
+  padding: 1rem;
+}
+.explicacoes-titulo {
+  font-weight: bold;
+  color: rgb(51, 143, 42);
+}
+.conceitos {
+  background-color: rgba(128, 128, 128, 0.192);
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+}
+.conceitos-container {
+  background-color: #fff;
+  border-radius: 10px;
+  flex: 1;
+  min-width: 240px;
+  padding: 1rem;
+  color: black;
+}
+.explicacoes {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+.Desafios-ativos li{
+  background-color: #726f6f2c;
+  border-radius: 10px;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-left:  5px solid #0d6efd;
+}
+
+.meta-desafio{
+  background-color: #fff;
+  border-radius: 10px;
+  color: black;
+  flex: 1;
+  min-width: 240px;
+  padding: 1rem;
+}
+.resul-desafio{
+  background-color: #9ecdec;
+  border-radius: 5px;
+  color: rgb(69, 69, 173);
+}
+.p1M{
+  color: blue;
+  font-weight: bolder;
+}
+.p1A{
+  color: purple;
+  font-weight: bold;
+}
+.p2M{
+  color: black;
+  font-weight: bold;
+}
+.p2A{
+  color: black;
+  font-weight: bold;
+}
+.desafios-ativos-container{
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 1rem;
+}
+.desaf-titulo{
+  font-weight: bold;
+}
+.desafios-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); 
+  gap: 2rem; 
+  margin-bottom: 2rem;
+  align-items: start;
+}
+.p1{
+  color: #1b5f12;
+  font-weight: bold;
+}
+.dicas {
+  background-color: #dbf3e5;
+  border-radius: 10px;
+  flex: 1;
+  min-width: 240px;
+  padding: 1rem;
+}
+
+.dicas-container {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 2rem;
+  color: #1c8538;
+}
+
+.dicas-titulo {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.dicas-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.form-card h3{
+  text-align: left;
+  color: #fff;
+  margin-bottom: 1rem;
+}
