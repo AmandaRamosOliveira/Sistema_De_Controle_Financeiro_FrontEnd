@@ -1,0 +1,67 @@
+.contas-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.contas-main{
+  background: linear-gradient(to right, rgb(174, 236, 189), rgb(68, 199, 158));
+  min-height: calc(100vh - 4rem);
+  padding: 2rem;
+  padding-bottom: calc(2rem + 80px);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-grow: 1;
+  height: auto;
+  flex: 1;
+
+}
+.painel-contas{
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 2rem;
+  border-color: #23c24d;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px;
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: auto;
+}
+.salario{
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.valorSalario, .valorDescontado{
+  flex: 1;
+  border-radius: 10px;
+  border-left:  5px solid #2c661a;
+}
+.btn-contas{
+  width: 90%;
+  max-width: 500px;
+} 
+.titulo{
+  text-align: center;
+  color: #025719;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.titulos{
+  margin-top: 1.5rem;
+  text-align: center;
+}
+.contas-spaces li{
+  background-color: #9797971f;
+  margin-top: 1rem;
+  border-radius: 10px;
+  padding: 1rem;
+  border-left:  5px solid #2c661a;
+  color: black;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
